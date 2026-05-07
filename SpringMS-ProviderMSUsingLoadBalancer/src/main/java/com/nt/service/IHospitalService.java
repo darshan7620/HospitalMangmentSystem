@@ -7,10 +7,10 @@ import com.nt.vo.HospitalVO;
 
 public interface IHospitalService {
 	public List<Hospital> findAllHospitals(); // done
-	public Hospital findHospitalById(int id);
-	public String updateHospitalAddrs(int id, String addrs);
-	public String updateHospitalDetails(HospitalVO hospital);
-	public String deleteHospitalById(int id);
-	public String registerHospital(HospitalVO doc);
-	public String registerHospitals(List<HospitalVO> docs);
+	public Hospital findHospitalById(int id); //done
+	public String updateHospitalAddrs(int id, String addrs);//done
+	public String updateHospitalDetails(HospitalVO hospital); // done
+	public String deleteHospitalById(int id); // done
+	public String registerHospital(HospitalVO doc); // done
+	public String registerHospitals(List<HospitalVO> docs); // done
 }
